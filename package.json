@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "Kantin23 Backend Server",
   "main": "src/index.js",
+  "type": "commonjs",
   "engines": {
     "node": ">=18.0.0"
   },
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "start:prod": "node src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
